@@ -1,0 +1,47 @@
+/* ===== NAV ===== */
+
+/* ===== Nav: Reseva, Serviço, cardapio, Depoimento ===== */
+.nav-link {
+    color: var(--color-black) !important; /*"!important" = Remove o hover que tem no link nessa linha*/
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    /*"!important" = Faz com que mesmo que tenha classe de algum framework, consigamos priorizar nossa estilização meio que forçando o css a considerar nossa estilização e não a do framework*/
+}
+
+a.navbar-brand {
+    margin-left: -25px; /*Coloca a logo para alinhar com a margem do Banner  <a href="#" class="navbar-brand">*/
+}
+
+/* ===== botão do "Meu Carrinho" ===== */
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black) !important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.btn-white.active, .btn-white:hover {
+    background-color: var(--color-primary);
+}
+
+/* ===== Botão ícone completo ===== */
+.btn-icon {
+    padding-right: 75px;
+}
+
+/* ===== Ícone com fundo laranja ===== */
+.btn-icon .icon {
+    display: inline-block;
+    color: var(--color-black);
+    background-color: var(--color-primary);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    margin-top: -8px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 6px;
+}

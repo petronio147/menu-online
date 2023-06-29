@@ -1,0 +1,44 @@
+/* ===== FONTES ===== */
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
+/* ===== PALETA DE CORES ===== */
+:root {
+    --color-background: #fffdf7;
+    --color-black: #212121;
+    --color-text: #4f4f4f;
+    --color-text-out: #90908e;
+    --color-primary: #ffbf00;
+    --color-secondary: #fff2cc;
+    --color-white: #ffffff;
+    --color-red: #e74c3c;
+    --color-green: #2ecc71;
+    --color-separate: #cccccc;
+    --color-black-heavy: #000;
+}
+
+/* ===== COR FUNDO, FONTE GERAL ===== */
+html, body {
+    background-color: var(--color-background);
+    font-family: 'PoppinsRegular', 'Rubik', 'sans-serfif';
+    color: var(--color-text);
+}
+
+/* ===== GERAL NEGRITO ===== */
+b {
+    font-family: 'PoppinsMedium', 'Rubik', 'sans-serfif';
+}
+
+/*
+.hidden {
+    Faz com o que tiver com essa classe não apareça.
+    display: none;
+}*/
+
